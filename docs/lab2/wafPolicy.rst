@@ -43,8 +43,7 @@ We will create a blocking WAF policy.
 
    menu, you can click "Edit Configuration" in the top right hand corner to review various defaults and settings of the WAF policy.
 
-.. |review-waf-policy| image:: ../_static/review-waf-policy.png
-    :width: 75%
+    |review-waf-policy|
 
 Video Walkthrough 
 ~~~~~~~~~~~~~~~~~
@@ -60,3 +59,6 @@ The entire video is 10 minutes total from start to finish.
 
 .. |app-context| image:: ../_static/app-context.png
     :width: 75%
+
+.. |review-waf-policy| image:: ../_static/review-waf-policy.png
+    :width: 75%    
