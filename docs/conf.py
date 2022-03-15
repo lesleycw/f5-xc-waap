@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'F5 Volterra WAF 101'
-copyright = '2022, Eric Chen'
-author = 'Eric Chen'
+project = 'F5 Volterra WAF'
+copyright = '2022, Chas Lesley'
+author = 'Chas Lesley'
 
 # The full version, including alpha/beta/rc tags
 release = ''
@@ -58,16 +58,3 @@ import f5_sphinx_theme
 html_theme = 'f5_sphinx_theme'
 html_sidebars = {'**': ['searchbox.html', 'localtoc.html', 'globaltoc.html']}
 import json
-
-aws_region = "us-west-2"
-try:
-    f = open('../terraform/terraform.auto.tfvars.json')
-    d = json.load(f)
-    aws_region = d['aws_region']
-except:
-    pass
-rst_prolog = """
-.. |aws_region| replace:: %s
-.. |aws_zone| replace:: %sa
-""" %(aws_region,aws_region)
-
