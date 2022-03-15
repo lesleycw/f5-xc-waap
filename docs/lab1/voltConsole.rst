@@ -1,9 +1,42 @@
+
+Requesting Access to a Distributed Cloud Sales tenant
+=====================================================
+Access to the sales Volterra tenants is based upon AD group membership.  To gain access to a tenant please 
+open a ServiceNow Access to a cloud account ticket requesting access to the corresponding Tenant name:
+
+ServiceNow link: https://f5.service-now.com.mcas.ms/sp?id=sc_cat_item&sys_id=aa2d8279dbbd6300b2c774dfaa96198e
+
+.. list-table:: Distributed Cloud Sales Tenants
+   :widths: 45 45
+   :header-rows: 1
+
+   * - Description
+     - Tenant Name
+   * - America Enterprise
+     - f5-amer-ent
+   * - America Service Provider
+     - f5-amer-sp
+   * - EMEA Enterprise
+     - f5-emea-ent
+   * - EMEA Service Provider
+     - f5-emea-sp
+   * - APAC Enterprise
+     - f5-apac-ent
+   * - APAC Service Provider
+     - f5-apac-sp
+   * - Solution Architect
+     - f5-sa
+
+Other tenants exist with Product Teams and Channel Teams.  Please coordinate with your respective business unit for access.
+
 Logging into VoltConsole
 ========================
 
 You should have received an email with an invitation to access VoltConsole.
 
-The name of the tenant that we will be using is ``f5-sales-public``
+The name of the tenant that will be used is dependent on your theatre and business unit tenant.
+
+Your directa access link will be formatted as https://<tenant name>.console.ves.volterra.io
 
 Exercise #1: Login to VoltConsole
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
