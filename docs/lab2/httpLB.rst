@@ -25,6 +25,8 @@ Exercise 1: HTTP Load Balancer Configuration
     Automatically Manage DNS Records  Yes/Check 
     ================================= =====
 
+This <tenant-name> above should match your delegated DNS name.  Home > DNS Managment.
+
     |lb-basic|
 
 Exercise 2: Configure Default Origin Server
