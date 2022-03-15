@@ -39,6 +39,10 @@ We will create a blocking WAF policy.
 
 #. Click the *Save and Exit* button to create the policy
 
+#. You can edit this policy by clicking the three Action dots and clicking "Manage Configuration" from the Action Menu.  In the "Manage configuration"
+
+   menu, you can click "Edit Configuration" in the top right hand corner to review various defaults and settings of the WAF policy.
+
 Video Walkthrough 
 ~~~~~~~~~~~~~~~~~
 Optional Video you can watch if you get stuck
