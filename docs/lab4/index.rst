@@ -1,6 +1,8 @@
 Lab 4: Protecting a Private Endpoint
 ====================================
 
+.. note:: Given different tenant environments, you will just be reviewing this lab - NO ACTION need be taken
+
 In the previous lab you learned how a VoltMesh node can be deployed 
 
 In this next lab we will look at two additional topologies of how you can use a "VoltMesh" node
