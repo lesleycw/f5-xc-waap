@@ -20,7 +20,7 @@ Exercise 1: HTTP Load Balancer Configuration
     Variable                          Value
     ================================= =====
     Name                              global
-    Domains                           studentXXX.sales-public.f5demos.com
+    Domains                           <your namespace>.<tenant name>.f5demos.com
     Select type of Load Balancer      HTTP
     Automatically Manage DNS Records  Yes/Check 
     ================================= =====
@@ -34,6 +34,8 @@ We'll next configure the "Default Origin Servers".
 #. Click on the *Add Items* link under the *Default Origin Servers* section.
 
 #. The "Select Origin Pool Method" will be set to "Origin Pool". Under the "Origin Pool" dropdown menu select the "public" pool you created earlier.
+
+   This will be listed under your namespace name (ex student001 below)
 
    .. image:: /_static/lb-pool-public.png
  
@@ -68,8 +70,8 @@ Exercise 4: Verify Configuration
 
 The public demo app should look like the following:
 
-.. image:: ../_static/screenshot-global-vip-public.png
-  :width: 50%
+.. image:: ../_static/appworld.png
+  :width: 75%
 
 In this topology we are sending traffic to an AnyCast IP that is hosted in Volterra's Regional Edge.
 
