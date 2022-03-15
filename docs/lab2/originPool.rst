@@ -33,7 +33,7 @@ We will first create an Origin Pool that refers to the "Public Endpoint" site in
     Variable                          Value
     ================================= =====
     Select Type of Origin Server      Public DNS Name of Origin Server [default]
-    DNS Name                          public.lab.f5demos.com
+    DNS Name                          app.chas.one
     ================================= =====
     
     |op-pool-basic|
@@ -45,7 +45,7 @@ We will first create an Origin Pool that refers to the "Public Endpoint" site in
     ================================= =====
     Variable                          Value
     ================================= =====
-    Port                              80
+    Port                              443
     ================================= =====
 
 
@@ -71,6 +71,17 @@ We will first create an Origin Pool that refers to the "Public Endpoint" site in
 
 #. Click *Apply* to exit the "Health Check HTTP Parameters" dialogue.
 #. Click *Continue* to return to the "Origin Pool" configuration.
+#. Under the "TLS Configuration" use the dropdown for "Enable TLS for Origin Servers" and change the value to "TLS".
+#. In the resulting options that appear, change the following values:
+
+    ==================================== =================
+    Variable                             Value
+    ==================================== =================
+    TLS Configuration for Origin Servers Low
+    ==================================== =================
+    Origin Server Verification           Skip Verification
+
+
 #. Click the *Save and Exit* button to create the Origin Pool.
 
 .. |app-context| image:: ../_static/app-context.png
