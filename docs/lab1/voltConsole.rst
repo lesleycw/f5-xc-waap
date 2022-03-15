@@ -7,7 +7,7 @@ open a ServiceNow Access to a cloud account ticket requesting access to the corr
 ServiceNow link: https://f5.service-now.com.mcas.ms/sp?id=sc_cat_item&sys_id=aa2d8279dbbd6300b2c774dfaa96198e
 
 .. list-table:: Distributed Cloud Sales Tenants
-   :widths: 45 45
+   :widths: 65 65
    :header-rows: 1
 
    * - Description
@@ -70,7 +70,7 @@ Namespace
 Exercise 2: Select your Persona
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Please log into your assigned Volterra tenant. https://f5-sales-public.console.ves.volterra.io/
+#. Please log into your assigned Volterra tenant. https://<tenant name>>.console.ves.volterra.io/
 
     .. note:: The VoltConsole GUI has a relatively short timeout. This is not configurable. We have an enhancement request to allow this to be configured.
 
@@ -90,6 +90,6 @@ Exercise 3: Identity your Namespace
    clicking on "Account Settings"
 
    .. image:: ../_static/screenshot-account-settings.png
-#. Next click on "My Namespaces" and take note of the `studentxxx` namespace that you have been assigned.  Each student will have a unique number.
+#. Next click on "My Namespaces" and take note of the namespace that you have been assigned.  Each employee will have a namespace that corresponds to their email prefix.
 
    .. image:: ../_static/screenshot-mynamespaces.png 
