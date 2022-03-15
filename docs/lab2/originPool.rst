@@ -78,9 +78,8 @@ We will first create an Origin Pool that refers to the "Public Endpoint" site in
     Variable                             Value
     ==================================== =================
     TLS Configuration for Origin Servers Low
-    ==================================== =================
     Origin Server Verification           Skip Verification
-
+    ==================================== =================
 
 #. Click the *Save and Exit* button to create the Origin Pool.
 
